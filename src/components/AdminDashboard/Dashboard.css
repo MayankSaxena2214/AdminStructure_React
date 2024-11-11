@@ -1,0 +1,29 @@
+.dashboard-container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+
+    .sidebar{
+        width: 30%;
+        background-color: black;
+        color:white;
+
+    }
+    .dashboard-right{
+        width: 70%;
+        background-color: wheat;
+    }
+}
+.sidebar-container{
+    div{
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            cursor:pointer;
+
+        }
+    }
+}
